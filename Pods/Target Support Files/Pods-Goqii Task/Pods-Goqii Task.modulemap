@@ -1,0 +1,6 @@
+framework module Pods_Goqii_Task {
+  umbrella header "Pods-Goqii Task-umbrella.h"
+
+  export *
+  module * { export * }
+}

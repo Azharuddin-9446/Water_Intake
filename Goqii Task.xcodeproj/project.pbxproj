@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5207ABBF2D0DF6BB00A02448 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5207ABBE2D0DF6BB00A02448 /* Helper.swift */; };
 		52B09DCF2D0C0172008EF78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09DCE2D0C0172008EF78A /* AppDelegate.swift */; };
 		52B09DD12D0C0172008EF78A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09DD02D0C0172008EF78A /* SceneDelegate.swift */; };
 		52B09DD32D0C0172008EF78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09DD22D0C0172008EF78A /* ViewController.swift */; };
 		52B09DD62D0C0172008EF78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B09DD42D0C0172008EF78A /* Main.storyboard */; };
 		52B09DD82D0C0174008EF78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B09DD72D0C0174008EF78A /* Assets.xcassets */; };
 		52B09DDB2D0C0174008EF78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B09DD92D0C0174008EF78A /* LaunchScreen.storyboard */; };
+		52B09DE32D0CAAD9008EF78A /* RecordDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09DE22D0CAAD9008EF78A /* RecordDataCell.swift */; };
+		52B09DE62D0CAEF9008EF78A /* waterLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52B09DE42D0CAEF9008EF78A /* waterLog.xcdatamodeld */; };
+		52B09DE82D0CB0A5008EF78A /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09DE72D0CB0A5008EF78A /* CoreDataHelper.swift */; };
+		AC69D5330D70ACC903BACBC9 /* Pods_Goqii_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18743C550174BB8113799D5 /* Pods_Goqii_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2866AC72DCC79FB050E84B40 /* Pods-Goqii Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goqii Task.release.xcconfig"; path = "Target Support Files/Pods-Goqii Task/Pods-Goqii Task.release.xcconfig"; sourceTree = "<group>"; };
+		5207ABBE2D0DF6BB00A02448 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		52B09DCB2D0C0172008EF78A /* Goqii Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goqii Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B09DCE2D0C0172008EF78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B09DD02D0C0172008EF78A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		52B09DD72D0C0174008EF78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B09DDA2D0C0174008EF78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B09DDC2D0C0174008EF78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B09DE22D0CAAD9008EF78A /* RecordDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDataCell.swift; sourceTree = "<group>"; };
+		52B09DE52D0CAEF9008EF78A /* waterLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterLog.xcdatamodel; sourceTree = "<group>"; };
+		52B09DE72D0CB0A5008EF78A /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		6EE4695CA25698EF75C7B6FC /* Pods-Goqii Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goqii Task.debug.xcconfig"; path = "Target Support Files/Pods-Goqii Task/Pods-Goqii Task.debug.xcconfig"; sourceTree = "<group>"; };
+		A18743C550174BB8113799D5 /* Pods_Goqii_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goqii_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC69D5330D70ACC903BACBC9 /* Pods_Goqii_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35FC4CC4B3F67455A9337736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EE4695CA25698EF75C7B6FC /* Pods-Goqii Task.debug.xcconfig */,
+				2866AC72DCC79FB050E84B40 /* Pods-Goqii Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		52B09DC22D0C0172008EF78A = {
 			isa = PBXGroup;
 			children = (
 				52B09DCD2D0C0172008EF78A /* Goqii Task */,
 				52B09DCC2D0C0172008EF78A /* Products */,
+				35FC4CC4B3F67455A9337736 /* Pods */,
+				9A3BA173CA55DE72121C2B21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +83,24 @@
 				52B09DCE2D0C0172008EF78A /* AppDelegate.swift */,
 				52B09DD02D0C0172008EF78A /* SceneDelegate.swift */,
 				52B09DD22D0C0172008EF78A /* ViewController.swift */,
+				5207ABBE2D0DF6BB00A02448 /* Helper.swift */,
+				52B09DE72D0CB0A5008EF78A /* CoreDataHelper.swift */,
+				52B09DE22D0CAAD9008EF78A /* RecordDataCell.swift */,
 				52B09DD42D0C0172008EF78A /* Main.storyboard */,
 				52B09DD72D0C0174008EF78A /* Assets.xcassets */,
 				52B09DD92D0C0174008EF78A /* LaunchScreen.storyboard */,
 				52B09DDC2D0C0174008EF78A /* Info.plist */,
+				52B09DE42D0CAEF9008EF78A /* waterLog.xcdatamodeld */,
 			);
 			path = "Goqii Task";
+			sourceTree = "<group>";
+		};
+		9A3BA173CA55DE72121C2B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A18743C550174BB8113799D5 /* Pods_Goqii_Task.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52B09DDF2D0C0174008EF78A /* Build configuration list for PBXNativeTarget "Goqii Task" */;
 			buildPhases = (
+				8A65EDF6C1C133CE66687819 /* [CP] Check Pods Manifest.lock */,
 				52B09DC72D0C0172008EF78A /* Sources */,
 				52B09DC82D0C0172008EF78A /* Frameworks */,
 				52B09DC92D0C0172008EF78A /* Resources */,
+				EACDF0B90DAB9AEA0B856B27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +171,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A65EDF6C1C133CE66687819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Goqii Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACDF0B90DAB9AEA0B856B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goqii Task/Pods-Goqii Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goqii Task/Pods-Goqii Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Goqii Task/Pods-Goqii Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52B09DC72D0C0172008EF78A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B09DE82D0CB0A5008EF78A /* CoreDataHelper.swift in Sources */,
+				5207ABBF2D0DF6BB00A02448 /* Helper.swift in Sources */,
+				52B09DE32D0CAAD9008EF78A /* RecordDataCell.swift in Sources */,
+				52B09DE62D0CAEF9008EF78A /* waterLog.xcdatamodeld in Sources */,
 				52B09DD32D0C0172008EF78A /* ViewController.swift in Sources */,
 				52B09DCF2D0C0172008EF78A /* AppDelegate.swift in Sources */,
 				52B09DD12D0C0172008EF78A /* SceneDelegate.swift in Sources */,
@@ -287,12 +371,14 @@
 		};
 		52B09DE02D0C0174008EF78A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE4695CA25698EF75C7B6FC /* Pods-Goqii Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64B888GC52;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Goqii Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +401,14 @@
 		};
 		52B09DE12D0C0174008EF78A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2866AC72DCC79FB050E84B40 /* Pods-Goqii Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64B888GC52;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Goqii Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -363,6 +451,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52B09DE42D0CAEF9008EF78A /* waterLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52B09DE52D0CAEF9008EF78A /* waterLog.xcdatamodel */,
+			);
+			currentVersion = 52B09DE52D0CAEF9008EF78A /* waterLog.xcdatamodel */;
+			path = waterLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 52B09DC32D0C0172008EF78A /* Project object */;
 }
