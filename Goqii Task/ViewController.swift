@@ -481,7 +481,7 @@ extension ViewController : FSCalendarDelegate,FSCalendarDataSource,UIGestureReco
     }
     
     func maximumDate(for calendar: FSCalendar) -> Date {
-        return Calendar.current.date(byAdding: .month, value: 1, to: Date())!//Date() // set the maximum date you want
+        return Date() // set the maximum date you want
     }
     
     // FSCalendarDelegate methods
